@@ -577,8 +577,9 @@ func (p *Prophet) CalcEnemyTeamScore() {
 		if len(currKDAMsg) > 0 {
 			currKDAMsg = currKDAMsg[:len(currKDAMsg)-1]
 		}
-		msg := fmt.Sprintf("%s(%d): %s %s  -- %s", horse, int(scoreInfo.Score), scoreInfo.SummonerName,
-			currKDAMsg, global.AdaptChatWebsiteTitle)
+		//msg := fmt.Sprintf("%s(%d): %s %s  -- %s", horse, int(scoreInfo.Score), scoreInfo.SummonerName,
+		//	currKDAMsg, global.AdaptChatWebsiteTitle)
+		msg := fmt.Sprintf("aaaaa", horse)
 		allMsg += msg + "\n"
 	}
 	_ = clipboard.WriteAll(allMsg)

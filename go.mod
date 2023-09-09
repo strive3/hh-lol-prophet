@@ -1,4 +1,4 @@
-module github.com/real-web-world/hh-lol-prophet
+module github.com/strive3/hh-lol-prophet
 
 go 1.19
 
