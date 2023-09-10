@@ -1,6 +1,6 @@
 package hh_lol_prophet
 
-import "github.com/real-web-world/hh-lol-prophet/global"
+import "github.com/strive3/hh-lol-prophet/global"
 
 var (
 	APPVersion = "0.2.3"

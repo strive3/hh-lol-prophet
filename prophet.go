@@ -28,11 +28,11 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/real-web-world/hh-lol-prophet/global"
-	ginApp "github.com/real-web-world/hh-lol-prophet/pkg/gin"
-	"github.com/real-web-world/hh-lol-prophet/services/lcu"
-	"github.com/real-web-world/hh-lol-prophet/services/lcu/models"
-	"github.com/real-web-world/hh-lol-prophet/services/logger"
+	"github.com/strive3/hh-lol-prophet/global"
+	ginApp "github.com/strive3/hh-lol-prophet/pkg/gin"
+	"github.com/strive3/hh-lol-prophet/services/lcu"
+	"github.com/strive3/hh-lol-prophet/services/lcu/models"
+	"github.com/strive3/hh-lol-prophet/services/logger"
 )
 
 type (
@@ -450,8 +450,12 @@ func (p *Prophet) ChampionSelectStart() {
 		if len(currKDAMsg) > 0 {
 			currKDAMsg = currKDAMsg[:len(currKDAMsg)-1]
 		}
-		msg := fmt.Sprintf("%s(%d): %s %s", horse, int(scoreInfo.Score), scoreInfo.SummonerName,
-			currKDAMsg)
+		//msg := fmt.Sprintf("%s(%d): %s %s", horse, int(scoreInfo.Score), scoreInfo.SummonerName,
+		//	currKDAMsg)‘
+		msg := fmt.Sprintf("%s-评分：%d分 隶属于：%s 近5场战绩：%s", scoreInfo.SummonerName, int(scoreInfo.Score), horse, currKDAMsg)
+		log.Println(scoreInfo.SummonerName)
+		log.Println(currKDAMsg)
+		log.Println(horse)
 		<-sendConversationMsgDelayCtx.Done()
 		if clientCfg.AutoSendTeamHorse {
 			mergedMsg += msg + "\n"

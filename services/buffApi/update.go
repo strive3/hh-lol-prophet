@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/real-web-world/hh-lol-prophet/conf"
+	"github.com/strive3/hh-lol-prophet/conf"
 )
 
 var (

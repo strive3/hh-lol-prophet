@@ -21,18 +21,18 @@ import (
 	"gorm.io/gorm"
 	gormLogger "gorm.io/gorm/logger"
 
-	"github.com/real-web-world/hh-lol-prophet/services/db/models"
+	"github.com/strive3/hh-lol-prophet/services/db/models"
 
-	"github.com/real-web-world/hh-lol-prophet/pkg/windows/admin"
-	"github.com/real-web-world/hh-lol-prophet/services/ws"
+	"github.com/strive3/hh-lol-prophet/pkg/windows/admin"
+	"github.com/strive3/hh-lol-prophet/services/ws"
 
-	hh_lol_prophet "github.com/real-web-world/hh-lol-prophet"
-	"github.com/real-web-world/hh-lol-prophet/services/buffApi"
+	hh_lol_prophet "github.com/strive3/hh-lol-prophet"
+	"github.com/strive3/hh-lol-prophet/services/buffApi"
 
-	"github.com/real-web-world/hh-lol-prophet/conf"
-	"github.com/real-web-world/hh-lol-prophet/global"
-	"github.com/real-web-world/hh-lol-prophet/pkg/bdk"
-	"github.com/real-web-world/hh-lol-prophet/pkg/logger"
+	"github.com/strive3/hh-lol-prophet/conf"
+	"github.com/strive3/hh-lol-prophet/global"
+	"github.com/strive3/hh-lol-prophet/pkg/bdk"
+	"github.com/strive3/hh-lol-prophet/pkg/logger"
 )
 
 const (

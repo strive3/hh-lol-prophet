@@ -7,8 +7,8 @@ import (
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 
-	"github.com/real-web-world/hh-lol-prophet/conf"
-	"github.com/real-web-world/hh-lol-prophet/pkg/logger"
+	"github.com/strive3/hh-lol-prophet/conf"
+	"github.com/strive3/hh-lol-prophet/pkg/logger"
 )
 
 type (

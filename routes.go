@@ -3,7 +3,7 @@ package hh_lol_prophet
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/real-web-world/hh-lol-prophet/services/ws"
+	"github.com/strive3/hh-lol-prophet/services/ws"
 )
 
 func RegisterRoutes(r *gin.Engine, api *Api) {

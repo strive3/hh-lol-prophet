@@ -10,12 +10,12 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/real-web-world/hh-lol-prophet/global"
-	"github.com/real-web-world/hh-lol-prophet/services/lcu"
-	"github.com/real-web-world/hh-lol-prophet/services/lcu/models"
+	"github.com/strive3/hh-lol-prophet/global"
+	"github.com/strive3/hh-lol-prophet/services/lcu"
+	"github.com/strive3/hh-lol-prophet/services/lcu/models"
 
-	"github.com/real-web-world/hh-lol-prophet/pkg/bdk"
-	"github.com/real-web-world/hh-lol-prophet/services/logger"
+	"github.com/strive3/hh-lol-prophet/pkg/bdk"
+	"github.com/strive3/hh-lol-prophet/services/logger"
 )
 
 const (

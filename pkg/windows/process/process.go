@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/real-web-world/hh-lol-prophet/services/logger"
+	"github.com/strive3/hh-lol-prophet/services/logger"
 	"golang.org/x/sys/windows"
 )
 

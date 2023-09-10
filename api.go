@@ -6,11 +6,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/real-web-world/hh-lol-prophet/conf"
-	"github.com/real-web-world/hh-lol-prophet/global"
-	ginApp "github.com/real-web-world/hh-lol-prophet/pkg/gin"
-	"github.com/real-web-world/hh-lol-prophet/services/db/models"
-	"github.com/real-web-world/hh-lol-prophet/services/lcu"
+	"github.com/strive3/hh-lol-prophet/conf"
+	"github.com/strive3/hh-lol-prophet/global"
+	ginApp "github.com/strive3/hh-lol-prophet/pkg/gin"
+	"github.com/strive3/hh-lol-prophet/services/db/models"
+	"github.com/strive3/hh-lol-prophet/services/lcu"
 )
 
 type (

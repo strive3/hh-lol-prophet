@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/real-web-world/hh-lol-prophet/pkg/logger"
+	"github.com/strive3/hh-lol-prophet/pkg/logger"
 )
 
 const (

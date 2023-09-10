@@ -3,7 +3,7 @@ package models
 import (
 	"context"
 
-	"github.com/real-web-world/hh-lol-prophet/global"
+	"github.com/strive3/hh-lol-prophet/global"
 	"gorm.io/gorm"
 )
 

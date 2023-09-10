@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/real-web-world/hh-lol-prophet/services/lcu"
+	"github.com/strive3/hh-lol-prophet/services/lcu"
 )
 
 const (

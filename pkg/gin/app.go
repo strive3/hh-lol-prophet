@@ -14,9 +14,9 @@ import (
 	"github.com/go-playground/validator/v10"
 	"github.com/pkg/errors"
 
-	"github.com/real-web-world/hh-lol-prophet/global"
-	"github.com/real-web-world/hh-lol-prophet/pkg/dto/retcode"
-	"github.com/real-web-world/hh-lol-prophet/pkg/fastcurd"
+	"github.com/strive3/hh-lol-prophet/global"
+	"github.com/strive3/hh-lol-prophet/pkg/dto/retcode"
+	"github.com/strive3/hh-lol-prophet/pkg/fastcurd"
 )
 
 const (

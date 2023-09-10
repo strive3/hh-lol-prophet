@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/real-web-world/hh-lol-prophet/pkg/bdk"
-	"github.com/real-web-world/hh-lol-prophet/pkg/windows/process"
-	"github.com/real-web-world/hh-lol-prophet/services/logger"
+	"github.com/strive3/hh-lol-prophet/pkg/bdk"
+	"github.com/strive3/hh-lol-prophet/pkg/windows/process"
+	"github.com/strive3/hh-lol-prophet/services/logger"
 	"go.uber.org/zap"
 )
 

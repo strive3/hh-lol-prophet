@@ -14,10 +14,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	app "github.com/real-web-world/hh-lol-prophet"
-	"github.com/real-web-world/hh-lol-prophet/bootstrap"
-	"github.com/real-web-world/hh-lol-prophet/global"
-	"github.com/real-web-world/hh-lol-prophet/pkg/bdk"
+	app "github.com/strive3/hh-lol-prophet"
+	"github.com/strive3/hh-lol-prophet/bootstrap"
+	"github.com/strive3/hh-lol-prophet/global"
+	"github.com/strive3/hh-lol-prophet/pkg/bdk"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/real-web-world/hh-lol-prophet/global"
+	"github.com/strive3/hh-lol-prophet/global"
 )
 
 func Debug(msg string, keysAndValues ...interface{}) {

@@ -13,9 +13,9 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
 
-	"github.com/real-web-world/hh-lol-prophet/services/lcu/models"
+	"github.com/strive3/hh-lol-prophet/services/lcu/models"
 
-	"github.com/real-web-world/hh-lol-prophet/services/logger"
+	"github.com/strive3/hh-lol-prophet/services/logger"
 )
 
 type (
